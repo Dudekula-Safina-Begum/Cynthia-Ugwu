@@ -23,10 +23,14 @@
     .eleme h5{
         font-size:1em;
     }
+    #second{
+        height: 70vh;
+    }
     #about{
         margin-top: 8vw;
         flex-direction: column;
-        padding: 0vw 0vw;
+        padding: 5vw 0vw;
+        
     }
     #textabout{
         width:80vw;
@@ -43,9 +47,24 @@
         gap: 1em;
     }
 
+    #mainfooter #footer-right .footer-right-child{
+        flex-direction: column;
+    }
 
 
 
 
+
+
+}
+
+@media screen and (max-width:350px){
+
+    .eleme{
+        flex-direction: column;
+    }
+    .eleme img{
+        display: none;
+    }
 
 }

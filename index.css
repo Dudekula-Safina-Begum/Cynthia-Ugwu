@@ -51,6 +51,7 @@ body,html{
     overflow: hidden;
 }
 .boundingelement{
+    background-color: rgb(0, 0, 0);
     transform: translateY(100%);
 
 }
@@ -134,11 +135,12 @@ body,html{
     gap: 0.5rem;
 }
 #second{
-    height: 90vh;
-    background-color: black;
+    height: 40vw;
+    background-color: rgb(0, 0, 0);
     width: 100%;
     color: white;
-    padding-top: 10em;
+    padding-top: 6vw;
+    padding-bottom: 10em;
     padding-right: 10vw;
     padding-left: 2vw;
     /* overflow: hidden; */
@@ -175,8 +177,8 @@ body,html{
 }
 .eleme img{
     position: absolute;
-    width: 25vw;
-    height: 15vw;
+    width: 20vw;
+    height: 10vw;
     opacity: 1;
     /* display: none; */
     z-index: 9999;
@@ -184,15 +186,16 @@ body,html{
      filter: brightness(1.2); 
 }
 #about{
-    margin-top: 5vw;
+    /* margin-top: 0vw; */
     /* border: 2px solid red; */
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
     align-items: center;
+    
     /* justify-content: space-between; */
     color: white;
-    padding: 10vw 10vw;
+    padding: 5vw 10vw;
     /* padding-left: 40vw; */
     gap: 20px;
     
@@ -276,6 +279,10 @@ body,html{
 #mainfooter #footer-right{
     display: flex;
     gap: 30px;
+}
+#mainfooter #footer-right .footer-right-child{
+    display: flex;
+    gap:1em
 }
 #mainfooter #footer-right a{
     text-transform: uppercase;
